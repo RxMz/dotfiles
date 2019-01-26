@@ -14,8 +14,6 @@ alias octave='octave --no-gui'
 alias racket='rlwrap racket'
 
 alias kc='kubectl'
-alias sc='systemctl'
-alias ssc='sudo systemctl'
 
 # git
 alias gaa='git add -A'
@@ -29,7 +27,3 @@ alias gs='git status'
 alias glog="git log --pretty=format:'%C(yellow)%h%Creset %Cblue%an%Creset %s %Cgreen(%ar)%Creset %Cred%d%Creset'"
 alias gfu='git fetch upstream master'
 alias gru='git rebase upstream/master'
-
-# workspace
-alias work='cd ~/Workspace'
-alias play='cd ~/Workspace/playground'
